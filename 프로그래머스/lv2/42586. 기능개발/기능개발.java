@@ -3,10 +3,8 @@ class Solution {
     public int[] solution(int[] progresses, int[] speeds) {
         ArrayList<Integer> answerList = new ArrayList<>();
 
-        // 반복횟수
         int temp = 1;
 
-        // pop하는 갯수
         int count = 0;
 
         for(int i=0; i< progresses.length;i++){
